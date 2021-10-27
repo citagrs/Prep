@@ -1,0 +1,44 @@
+body {
+    color: sandybrown; /* color de la letra*/
+    height: 300px;
+    display:         flex; /*flexbox*/
+    flex-direction: column; /* se usa para organizar todo en columna, si se inhabilita tendra la distribucion default*/
+    background-image: url("https://cafenissidecolombia.com/wp-content/uploads/2020/06/slider4.jpg");
+    background-repeat: no-repeat;
+  }
+  h1 {
+      color:orange; /*color de la letra*/
+      text-align: center;
+
+  }
+  img {
+    margin: 0 auto; 
+      width: 400px;
+
+  }
+  #thirdDiv {
+      margin: 0 auto; 
+      width: 500px; /*ancho*/
+      height: 600px; /*altura*/
+      background-color:rgb(21, 14, 116);/*color del fondo*/
+      padding: 50px; /*relleno*/
+      border: red 5px outset; /*borde*/
+      border-radius: 20px;
+
+  }
+  .divClass{
+    text-align: center;
+    margin: 0 auto; /*centrar los elementes dentro de la caja*/
+    max-width: 600px; /*tamaño limite de la caja, es recmendable usar %*/
+
+  } 
+  #spanId {
+      margin: 0 auto; 
+      font-size: 25px; /*tamaño de la letra*/
+      margin: 50px; /*tamaño del margen*/
+
+  }
+  a {
+    font-size: 20px; /*tamaño de la letra*/ 
+    color: yellowgreen ; /* color de la letra*/
+  }
